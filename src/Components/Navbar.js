@@ -1,3 +1,5 @@
+import React from "react";
+
 const Navbar = () => {
   return (
     <>
@@ -5,7 +7,9 @@ const Navbar = () => {
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <div class="flex items-center flex-shrink-0 text-white   mr-6 ">
             <div>
-              <h1 className="text-5xl font-bold text-blue-500 font-signature ml-2">Maruf</h1>
+              <h1 className="text-5xl font-bold text-blue-500 font-signature ml-2">
+                Maruf
+              </h1>
             </div>
           </div>
           <button
