@@ -22,8 +22,6 @@ const About = () => {
           Dedication To Continuous Learning And Growth, Makes Me A Valuable
           Asset To Any Team In The Software Development Industry.
         </p>
-        <br />
-        <p className="text-xl">My Email marufkhan2002:@gmail.com</p>
       </div>
     </div>
   );
