@@ -12,7 +12,18 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20 text-purple-500">
+
+        <p className="text-xl  text-purple-500">
+          As A Highly Driven And Ambitious College Student, I Am Constantly
+          Seeking Opportunities To Expand My Knowledge And Skills In The Field
+          Of Software Development. With A Strong Foundation In Programming
+          Languages And A Deep Understanding Of Software Engineering Principles,
+          I Am Equipped To Tackle Complex Coding Challenges And Create
+          Innovative Solutions. My Passion For Technology, Coupled With My
+          Dedication To Continuous Learning And Growth, Makes Me A Valuable
+          Asset To Any Team In The Software Development Industry.
+        </p>
+        <p className="text-xl my-2 text-purple-500">
           As A Highly Driven And Ambitious College Student, I Am Constantly
           Seeking Opportunities To Expand My Knowledge And Skills In The Field
           Of Software Development. With A Strong Foundation In Programming

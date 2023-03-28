@@ -28,18 +28,18 @@ const Home = () => {
           </h2>
           <button
             type="button"
-            class="text-blue-900 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-40 my-6 "
+            className="text-blue-900 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-40 my-6 "
           >
             About Me
           </button>
           <div className="py-4 flex space-x-4 justify-start">
-            <a href="https://www.linkedin.com/feed/?trk=nav_logo">
+            <a target="_blank" href="https://www.linkedin.com/feed/?trk=nav_logo">
               {" "}
-              <AiOutlineLinkedin className="text-4xl rounded bg-gray-300" />
+              <AiOutlineLinkedin className="text-4xl rounded bg-blue-500" />
             </a>
-            <a href="https://github.com/marufk21">
+            <a target="_blank" href="https://github.com/marufk21">
               {" "}
-              <AiOutlineGithub className="text-4xl rounded  bg-gray-300" />
+              <AiOutlineGithub className="text-4xl rounded  bg-blue-500" />
             </a>
           </div>
         </div>
