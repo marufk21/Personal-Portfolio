@@ -39,50 +39,54 @@ const ContactMe = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-screen bg-gradient-to-r from-blue-900 to-black"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
             Contact Me
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <form
             form
             onSubmit={handleSubmit}
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-1/2 text"
           >
             <input
               id="name"
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-green-500 focus:outline-none border-blue-600 placeholder-purple-400"
             />
+
             <ValidationError prefix="Name" field="name" errors={state.errors} />
+
             <input
               id="email"
               type="email"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-green-400 focus:outline-none border-blue-600 placeholder-purple-400"
             />
+
             <ValidationError
               prefix="Email"
               field="email"
               errors={state.errors}
             />
+
             <textarea
               id="message"
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-green-400 focus:outline-none border-blue-600 placeholder-purple-400"
             ></textarea>
+
             <ValidationError
               prefix="Message"
               field="message"
@@ -92,7 +96,7 @@ const ContactMe = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              className="text-blue-900 font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
             >
               Let's talk
             </button>

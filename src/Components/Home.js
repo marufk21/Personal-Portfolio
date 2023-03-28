@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-r from-blue-900 to-black"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-5/6">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            <div className="text-white text-3xl mb-3 ">
+          <h2 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-blue-500 via-green-500 to-purple-800 text-transparent bg-clip-text">
+            <div className="bg-gradient-to-r from-blue-500 via-green-500 to-purple-600 text-transparent bg-clip-text text-3xl mb-3 ">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -28,7 +28,7 @@ const Home = () => {
           </h2>
           <button
             type="button"
-            class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-40 my-6 "
+            class="text-blue-900 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-40 my-6 "
           >
             About Me
           </button>

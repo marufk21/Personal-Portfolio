@@ -5,7 +5,6 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 // import Projects from "./Components/Projects";
 import Education from "./Components/Education";
-// import Experience from "./Components/Experience";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 
@@ -18,7 +17,6 @@ const App = () => {
       <Education />
       <Skills />
       {/* <Projects /> */}
-      {/* <Experience /> */}
       <ContactMe />
       <Footer />
     </>
