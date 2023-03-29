@@ -3,7 +3,6 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nodejs from "../assets/node.png";
-import expressjs from "../assets/expressjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -45,14 +44,9 @@ const SKills = () => {
       title: "NodeJS",
       style: "shadow-lime-300",
     },
-    // {
-    //   id: 7,
-    //   src: expressjs,
-    //   title: "ExpressJS",
-    //   style: "shadow-pink-400",
-    // },
+
     {
-      id: 8,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
