@@ -24,7 +24,7 @@ const About = () => {
           Asset To Any Team In The Software Development Industry.
         </p>
         <p className="text-xl my-2 text-purple-500">
-          As A Highly Driven And Ambitious College Student, I Am Constantly
+          As a Highly Driven And Ambitious College Student, I Am Constantly
           Seeking Opportunities To Expand My Knowledge And Skills In The Field
           Of Software Development. With A Strong Foundation In Programming
           Languages And A Deep Understanding Of Software Engineering Principles,
