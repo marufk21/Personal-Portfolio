@@ -1,6 +1,8 @@
 # Personal Portfolio
 
-My personal portfolio showcasing my web development projects, skills, and experience. This website features a clean and modern design that highlights my expertise and passion for web development. Browse through my projects, read my blog, and get in touch to learn more about my work. Optimized for SEO and mobile devices.
+My personal portfolio showcasing my web development projects, skills, and experience. This website features a clean and modern design that highlights my expertise and passion for web development.
+
+Link - https://marufkhan.netlify.app
 
 ## Installation
 
@@ -14,7 +16,6 @@ My personal portfolio showcasing my web development projects, skills, and experi
 
 - React.js
 - Tailwind CSS
-
 
 ## Features
 
