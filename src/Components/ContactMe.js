@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import Pinfo from "./Pinfo";
 
 const ContactMe = () => {
   const [state, handleSubmit] = useForm("xzbqavyq");
@@ -31,23 +32,25 @@ const ContactMe = () => {
   }
 
   return (
-    <div id="contact"
+    <div
+      id="contact"
       name="contact"
       className="w-full h-screen bg-gradient-to-r from-blue-900 to-black"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+       <div className="max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
           <p className="text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
             Contact Me
           </p>
         </div>
 
+
         <div className="flex justify-center items-center ">
           <form
             form="true"
             onSubmit={handleSubmit}
             method="POST"
-            className=" flex flex-col w-full md:w-1/2 text"
+            className="flex flex-col w-full md:w-1/2 text"
           >
             <input
               id="name"
@@ -94,6 +97,7 @@ const ContactMe = () => {
             >
               Send Message
             </button>
+            <Pinfo/>
           </form>
         </div>
       </div>
