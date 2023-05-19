@@ -18,9 +18,9 @@ const About = () => {
           during my academic journey, I honed my skills in essential programming
           languages and popular web development frameworks and libraries. I
           excel in problem-solving by breaking down challenges, conducting
-          through research, and my analytical skills. I analyze
-          problems from different angles, utilizing my technical expertise to
-          find effective solutions.
+          through research, and my analytical skills. I analyze problems from
+          different angles, utilizing my technical expertise to find effective
+          solutions.
         </p>
         <p className="text-xl my-2 text-purple-500">
           I thrive on exploring emerging technologies and staying updated with
@@ -38,7 +38,6 @@ const About = () => {
           enhance my skills and stay up to date with industry best practices.
         </p>
       </div>
-    
     </div>
   );
 };

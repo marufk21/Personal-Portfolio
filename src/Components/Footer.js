@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" text-gray-600 body-font bg-gradient-to-r from-blue-900 to-black">
+    <footer className="z-0 mt-auto text-gray-600 body-font bg-gradient-to-r from-blue-900 to-black">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span className="ml-3 text-sm font-bold text-blue-500">
@@ -21,7 +21,7 @@ const Footer = () => {
           <a
             target="_blank"
             href="https://github.com/marufk21"
-           rel="noreferrer"
+            rel="noreferrer"
             className="ml-3 text-blue-500"
           >
             {" "}
@@ -30,7 +30,7 @@ const Footer = () => {
           <a
             target="_blank"
             href="https://www.linkedin.com/in/marufkhan20/"
-           rel="noreferrer"
+            rel="noreferrer"
             className="ml-3 text-blue-500"
           >
             <RiLinkedinBoxFill className="text-xl " />
@@ -38,7 +38,7 @@ const Footer = () => {
           <a
             target="_blank"
             href="https://www.instagram.com/marufique_/"
-           rel="noreferrer"
+            rel="noreferrer"
             className="ml-3 text-blue-500 "
           >
             <RiInstagramFill className="text-xl " />

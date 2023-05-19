@@ -68,12 +68,8 @@ const Skills = () => {
   ];
 
   return (
-    <div
-      id="skills"
-      name="experience"
-      className="bg-gradient-to-r from-blue-900 to-black"
-    >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  h-full text-slate-400">
+    <div id="skills" className="bg-gradient-to-r  from-blue-900 to-black">
+      <div className="overflow-visible max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  h-full text-slate-400">
         <div>
           <p className="text-4xl text-blue-500 font-bold border-b-4 border-green-500 p-2 inline">
             <br />

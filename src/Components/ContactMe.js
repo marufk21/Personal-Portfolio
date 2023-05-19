@@ -37,15 +37,16 @@ const ContactMe = () => {
       name="contact"
       className="w-full h-screen bg-gradient-to-r from-blue-900 to-black"
     >
-       <div className="max-w-screen-lg p-4 mx-auto">
+      <div className="max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
           <p className="text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
             Contact Me
           </p>
         </div>
-
+        <Pinfo />
 
         <div className="flex justify-center items-center ">
+        <p></p>
           <form
             form="true"
             onSubmit={handleSubmit}
@@ -93,11 +94,10 @@ const ContactMe = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="text-blue-900 font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              className="text-blue-900 font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-3xl hover:scale-110 duration-300"
             >
               Send Message
             </button>
-            <Pinfo/>
           </form>
         </div>
       </div>

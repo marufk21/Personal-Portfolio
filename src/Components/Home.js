@@ -1,11 +1,11 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
+import Typewriter from "typewriter-effect";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
   AiOutlineMail,
 } from "react-icons/ai";
-import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -32,11 +32,12 @@ const Home = () => {
           </h2>
           <button
             type="button"
-            className="text-blue-900  bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-44 my-6"
+            className="text-blue-900  bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-3xl text-sm px-5 py-2.5 text-center mr-2 mb-3 w-44 my-6"
           >
             <a
               href="https://drive.google.com/drive/folders/1SYKXDHFdwqV2zSI1_TcN5j3dZzdgPNA-?usp=sharing"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               Download Resume
@@ -47,12 +48,17 @@ const Home = () => {
             Connect Me Now
           </p>
           <div className="py-4 flex space-x-4 justify-start">
-            <a target="_blank" rel="noreferrer" href="https://github.com/marufk21">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/marufk21"
+            >
               {" "}
               <AiOutlineGithub className="text-4xl rounded  bg-blue-500" />
             </a>
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/feed/?trk=nav_logo"
             >
               {" "}
