@@ -36,7 +36,7 @@ const Home = () => {
           >
             <a
               href="https://drive.google.com/drive/folders/1SYKXDHFdwqV2zSI1_TcN5j3dZzdgPNA-?usp=sharing"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               {" "}
               Download Resume
@@ -47,12 +47,12 @@ const Home = () => {
             Connect Me Now
           </p>
           <div className="py-4 flex space-x-4 justify-start">
-            <a target="_blank" href="https://github.com/marufk21">
+            <a target="_blank" rel="noreferrer" href="https://github.com/marufk21">
               {" "}
               <AiOutlineGithub className="text-4xl rounded  bg-blue-500" />
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://www.linkedin.com/feed/?trk=nav_logo"
             >
               {" "}
