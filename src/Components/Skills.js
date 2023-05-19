@@ -5,8 +5,10 @@ import reactImage from "../assets/react.png";
 import nodejs from "../assets/node.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import nextjs from "../assets/nextjs.png";
+import redux from "../assets/redux.png";
 
-const SKills = () => {
+const Skills = () => {
   const techs = [
     {
       id: 1,
@@ -29,24 +31,36 @@ const SKills = () => {
     {
       id: 4,
       src: reactImage,
-      title: "React",
+      title: "ReactJS",
       style: "shadow-blue-600",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-500",
     },
     {
       id: 6,
+      src: tailwind,
+      title: "Tailwind CSS",
+      style: "shadow-sky-500",
+    },
+    {
+      id: 7,
+      src: nextjs,
+      title: "NextJS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 8,
       src: nodejs,
       title: "NodeJS",
       style: "shadow-lime-300",
     },
 
     {
-      id: 7,
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -55,11 +69,11 @@ const SKills = () => {
 
   return (
     <div
+      id="skills"
       name="experience"
-      className="bg-gradient-to-r from-blue-900 to-black
-0"
+      className="bg-gradient-to-r from-blue-900 to-black"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-slate-400">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  h-full text-slate-400">
         <div>
           <p className="text-4xl text-blue-500 font-bold border-b-4 border-green-500 p-2 inline">
             <br />
@@ -83,4 +97,4 @@ const SKills = () => {
   );
 };
 
-export default SKills;
+export default Skills;

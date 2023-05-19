@@ -3,35 +3,37 @@ import React from "react";
 const About = () => {
   return (
     <div
-      name="about"
-      className="w-full h-screen bg-gradient-to-r from-blue-900 to-black"
+      id="about"
+      className="w-full min-h-screen bg-gradient-to-r from-blue-900 to-black flex items-center justify-center"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
           <p className="text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
             About
           </p>
         </div>
 
-        <p className="text-xl  text-purple-500">
-          As A Highly Driven And Ambitious College Student, I Am Constantly
-          Seeking Opportunities To Expand My Knowledge And Skills In The Field
-          Of Software Development. With A Strong Foundation In Programming
-          Languages And A Deep Understanding Of Software Engineering Principles,
-          I Am Equipped To Tackle Complex Coding Challenges And Create
-          Innovative Solutions. My Passion For Technology, Coupled With My
-          Dedication To Continuous Learning And Growth, Makes Me A Valuable
-          Asset To Any Team In The Software Development Industry.
+        <p className="text-xl text-purple-500">
+          Hello! I'm Maruf Khan, a recent graduate in Computer Applications with
+          a passion for creating innovative and user-friendly websites. I am
+          enthusiastic about combining aesthetics with functionality in my web
+          development projects.
         </p>
         <p className="text-xl my-2 text-purple-500">
-          As a Highly Driven And Ambitious College Student, I Am Constantly
-          Seeking Opportunities To Expand My Knowledge And Skills In The Field
-          Of Software Development. With A Strong Foundation In Programming
-          Languages And A Deep Understanding Of Software Engineering Principles,
-          I Am Equipped To Tackle Complex Coding Challenges And Create
-          Innovative Solutions. My Passion For Technology, Coupled With My
-          Dedication To Continuous Learning And Growth, Makes Me A Valuable
-          Asset To Any Team In The Software Development Industry.
+          Throughout my academic journey, I honed my skills in essential
+          programming languages and popular web development frameworks and
+          libraries. I thrive on exploring emerging technologies and staying
+          updated with the dynamic trends in the web development industry.
+        </p>
+        <p className="text-xl my-2 text-purple-500">
+          I actively seek opportunities to learn from experienced professionals
+          and contribute to impactful projects. My goal is to create visually
+          appealing websites that offer seamless user experiences, focusing on
+          responsive design and accessibility. Apart from web development, I
+          have a keen interest in user experience and strive to
+          incorporate intuitive interfaces into my projects. I am constantly
+          seeking ways to enhance my skills and stay up to date with industry
+          best practices.
         </p>
       </div>
     </div>

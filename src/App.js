@@ -3,8 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
-// import Projects from "./Components/Projects";
-// import Education from "./Components/Education";
+import Projects from "./Components/Projects";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 
@@ -14,9 +13,8 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      {/* <Education /> */}
+      <Projects />
       <Skills />
-      {/* <Projects /> */}
       <ContactMe />
       <Footer />
     </>

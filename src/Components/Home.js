@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
     <div
-      name="home"
+      id="home"
       className="h-screen w-full bg-gradient-to-r from-blue-900 to-black"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
@@ -24,16 +24,14 @@ const Home = () => {
                 }}
               />
             </div>
-            I'm a Full Stack Developer
+            I'm a Software Developer
           </h2>
-          <button
-            type="button"
-            className="text-blue-900 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-40 my-6 "
-          >
-            About Me
-          </button>
+
           <div className="py-4 flex space-x-4 justify-start">
-            <a target="_blank" href="https://www.linkedin.com/feed/?trk=nav_logo">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/feed/?trk=nav_logo"
+            >
               {" "}
               <AiOutlineLinkedin className="text-4xl rounded bg-blue-500" />
             </a>
@@ -42,13 +40,19 @@ const Home = () => {
               <AiOutlineGithub className="text-4xl rounded  bg-blue-500" />
             </a>
           </div>
+          <button
+            type="button"
+            className="text-blue-900  bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-3 w-44 my-6 "
+          >
+            Download Resume
+          </button>
         </div>
 
         <div>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-30 max-h-96 md:w-full"
+            className=" rounded-2xl mx-auto w-30 max-h-96 md:w-full"
           />
         </div>
       </div>
