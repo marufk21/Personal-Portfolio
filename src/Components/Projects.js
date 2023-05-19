@@ -54,12 +54,12 @@ const ProjectSection = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="text-white font-semibold text-lg w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={live} target="_blank">
+                  <a href={live} target="_blank" rel="noreferrer">
                     Live
                   </a>
                 </button>
                 <button className="text-white font-semibold text-lg w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={code} target="_blank">
+                  <a href={code} target="_blank" rel="noreferrer">
                     Code
                   </a>
                 </button>
@@ -74,7 +74,7 @@ const ProjectSection = () => {
           >
             <a
               href="https://github.com/marufk21?tab=repositories"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               For More Projects
             </a>
