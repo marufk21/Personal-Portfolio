@@ -1,6 +1,6 @@
-# Personal Portfolio
+# Profolio
 
-My personal portfolio showcasing my web development projects, skills, and experience. This website features a clean and modern design that highlights my expertise and passion for web development.
+My personal portfolio project showcasing my web development projects, skills, and experience. This website features a clean and modern design that highlights my expertise and passion for web development.
 
 Link - https://marufkhan.netlify.app
 
