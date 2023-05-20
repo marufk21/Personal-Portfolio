@@ -20,8 +20,8 @@ Link - https://marufkhan.netlify.app
 ## Features
 
 -  Modern UI (User Interface)
--  Responsive
 -  Animated
+-  Responsive
 
 ## Upcoming Features
 
@@ -30,4 +30,4 @@ Link - https://marufkhan.netlify.app
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute, please [create a new issue](https://github.com/[username]/[project name]/issues) or submit a pull request.
+Contributions are welcome! If you'd like to contribute, please [create a new issue](https://github.com/[username]/[projectname]/issues) or submit a pull request.
