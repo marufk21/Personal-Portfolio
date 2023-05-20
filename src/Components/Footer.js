@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.instagram.com/marufique_/"
+            href="https://www.instagram.com/marufique/"
             rel="noreferrer"
             className="ml-3 text-blue-500 "
           >
