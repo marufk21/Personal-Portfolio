@@ -59,7 +59,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/feed/?trk=nav_logo"
+              href="https://www.linkedin.com/in/marufk21/"
             >
               {" "}
               <AiOutlineLinkedin className="text-4xl rounded bg-blue-500" />

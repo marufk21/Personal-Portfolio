@@ -1,6 +1,6 @@
 import ecommerce from "../assets/ecommerce.png";
 import notes from "../assets/notes.png";
-import portfolio from "../assets/portfolio.jpg";
+import portfolio from "../assets/portfolio.png";
 
 const ProjectSection = () => {
   const portfolios = [
@@ -41,7 +41,7 @@ const ProjectSection = () => {
 
         <div className="overflow-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-4">
           {portfolios.map(({ id, title, src, live, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-blue-600 rounded-lg">
               <img
                 src={src}
                 alt=""

@@ -7,6 +7,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import redux from "../assets/redux.png";
+import mongo from "../assets/mongo.svg";
 
 const Skills = () => {
   const techs = [
@@ -35,16 +36,16 @@ const Skills = () => {
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-500",
-    },
-    {
       id: 6,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-sky-500",
+    },
+    {
+      id: 5,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-500",
     },
     {
       id: 7,
@@ -58,9 +59,14 @@ const Skills = () => {
       title: "NodeJS",
       style: "shadow-lime-300",
     },
-
     {
       id: 9,
+      src: mongo,
+      title: "MongoDB",
+      style: "shadow-green-600",
+    },
+    {
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -69,7 +75,7 @@ const Skills = () => {
 
   return (
     <div id="skills" className="bg-gradient-to-r  from-blue-900 to-black">
-      <div className="overflow-visible max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  h-full text-slate-400">
+      <div className="overflow-visible max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-slate-400">
         <div>
           <p className="text-4xl text-blue-500 font-bold border-b-4 border-green-500 p-2 inline">
             <br />
@@ -77,7 +83,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="text-white w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="text-white w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
