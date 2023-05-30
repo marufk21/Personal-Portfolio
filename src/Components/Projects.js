@@ -15,7 +15,7 @@ const ProjectSection = () => {
       id: 2,
       title: "QuickNote",
       src: notes,
-      live: "",
+      live: "https://myquicknotes.netlify.app",
       code: "https://github.com/marufk21/QuickNote",
     },
     {
