@@ -1,6 +1,6 @@
 import ecommerce from "../assets/ecommerce.png";
 import notes from "../assets/notes.png";
-import portfolio from "../assets/portfolio.png";
+import portfolio from "../assets/f1ext.png";
 
 const ProjectSection = () => {
   const portfolios = [
@@ -20,10 +20,10 @@ const ProjectSection = () => {
     },
     {
       id: 3,
-      title: "Profolio",
+      title: "F1-Racing Extension",
       src: portfolio,
-      live: "https://marufkhan.netlify.app",
-      code: "https://github.com/marufk21/Profolio",
+      live: "https://github.com/marufk21/F1-Racing-Extension",
+      code: "https://github.com/marufk21/F1-Racing-Extension",
     },
   ];
 
