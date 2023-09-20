@@ -8,13 +8,14 @@ import {
 } from "react-icons/ai";
 
 const Home = () => {
+  
   return (
     <div
       id="home"
       className="h-screen w-full bg-gradient-to-r from-blue-900 to-black"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-4/6">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4 md:flex-row">
+        <div className="flex flex-col justify-center h-2/3"> {/* Updated height */}
           <h2 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-blue-500 via-green-500 to-purple-800 text-transparent bg-clip-text">
             <div className="bg-gradient-to-r from-blue-500 via-green-500 to-purple-600 text-transparent bg-clip-text text-3xl mb-3 ">
               <Typewriter
@@ -43,7 +44,7 @@ const Home = () => {
               Download Resume
             </a>
           </button>
-
+  
           <p className="mt-4 text-xl sm:text-xl font-semibold bg-gradient-to-r from-blue-500 via-green-500 to-purple-800 text-transparent bg-clip-text">
             Connect Me Now
           </p>
@@ -64,7 +65,7 @@ const Home = () => {
               {" "}
               <AiOutlineLinkedin className="text-4xl rounded bg-blue-500" />
             </a>
-            <a href="marufkhan2002@gmail.com">
+            <a href="mailto:marufkhan2002@gmail.com"> {/* Added "mailto:" */}
               {" "}
               <AiOutlineMail className="text-4xl rounded  bg-blue-500" />
             </a>

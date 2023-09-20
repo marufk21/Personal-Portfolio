@@ -38,16 +38,14 @@ const ProjectSection = () => {
             Projects
           </p>
         </div>
-
         <div className="overflow-visible grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-4">
           {portfolios.map(({ id, title, src, live, code }) => (
             <div key={id} className="shadow-md shadow-blue-600 rounded-lg p-4">
               <img
                 src={src}
                 alt={title}
-                className="hover:scale-105 duration-500 py-2 rounded-lg w-[320px] h-[250px]"
+                className="hover:scale-105 duration-500 py-2 rounded-lg w-full sm:w-[320px] md:w-[280px] lg:w-[360px] h-auto"
               />
-
               <h3 className="mt-3 text-center text-purple-700 text-xl font-semibold">
                 {title}
               </h3>
@@ -73,8 +71,6 @@ const ProjectSection = () => {
             </div>
           ))}
         </div>
-
-        <br />
 
         <div className="flex justify-center">
           <button

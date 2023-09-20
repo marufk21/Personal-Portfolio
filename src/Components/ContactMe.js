@@ -35,7 +35,7 @@ const ContactMe = () => {
     <div
       id="contact"
       name="contact"
-      className="w-full h-screen bg-gradient-to-r from-blue-900 to-black"
+      className="h-screen w-full  bg-gradient-to-r from-blue-900 to-black"
     >
       <div className="max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
