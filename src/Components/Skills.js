@@ -8,6 +8,8 @@ import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import redux from "../assets/redux.png";
 import mongo from "../assets/mongo.svg";
+import typescript from "../assets/typescript.png";
+import sass from "../assets/sass.png";
 
 const Skills = () => {
   const techs = [
@@ -31,42 +33,56 @@ const Skills = () => {
     },
     {
       id: 4,
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-400",
+    },
+
+    {
+      id: 5,
       src: reactImage,
       title: "ReactJS",
-      style: "shadow-blue-600",
+      style: "shadow-blue-500",
     },
     {
       id: 6,
-      src: tailwind,
-      title: "Tailwind CSS",
-      style: "shadow-sky-500",
-    },
-    {
-      id: 5,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-500",
-    },
-    {
-      id: 7,
       src: nextjs,
       title: "NextJS",
       style: "shadow-gray-400",
     },
     {
+      id: 7,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-500",
+    },
+    {
       id: 8,
+      src: tailwind,
+      title: "Tailwind CSS",
+      style: "shadow-sky-500",
+    },
+    {
+      id: 9,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-400",
+    },
+
+    {
+      id: 10,
       src: nodejs,
       title: "NodeJS",
       style: "shadow-lime-300",
     },
     {
-      id: 9,
+      id: 11,
       src: mongo,
       title: "MongoDB",
       style: "shadow-green-600",
     },
     {
-      id: 10,
+      id: 12,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -97,6 +113,7 @@ const Skills = () => {
       </div>
     </div>
   );
+    <br />
 };
 
 export default Skills;

@@ -28,7 +28,7 @@ const Home = () => {
                 }}
               />
             </div>
-            I'm a Software Developer
+            I'm a Full-Stack Developer
           </h2>
           <button
             type="button"

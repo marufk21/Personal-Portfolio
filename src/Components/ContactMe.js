@@ -39,14 +39,14 @@ const ContactMe = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
-          <p className="text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
+          <p className="my-12 text-4xl text-blue-500 font-bold inline border-b-4 border-green-500">
             Contact Me
           </p>
         </div>
         <Pinfo />
 
         <div className="flex justify-center items-center ">
-        <p></p>
+          <p></p>
           <form
             form="true"
             onSubmit={handleSubmit}
