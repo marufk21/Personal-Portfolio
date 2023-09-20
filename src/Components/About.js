@@ -18,7 +18,7 @@ const About = () => {
           During my academic journey, I honed my skills in essential programming
           languages and popular web development frameworks and libraries. I
           excel in problem-solving by breaking down challenges, conducting
-          thorough research, and applying my analytical skills. I analyze
+          through research, and applying my analytical skills. I analyze
           problems from different angles, utilizing my technical expertise to
           find effective solutions.
         </p>
