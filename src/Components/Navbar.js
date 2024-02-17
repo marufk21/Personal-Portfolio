@@ -51,7 +51,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center z-10 w-full h-20 px-4 bg-gradient-to-r from-blue-900 to-black fixed">
+    <nav className="flex justify-between items-center z-10 w-full h-20 px-4 bg-gradient-to-r from-blue-900 to-black ">
       <div>
         <h1 className="text-4xl font-bold ml-2 bg-gradient-to-r from-blue-500 via-green-500 to-purple-600 text-transparent bg-clip-text">
           Maruf Khan
