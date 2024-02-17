@@ -63,7 +63,7 @@ const Home = () => {
           </a>
         </button>
 
-        <p class="text-[#3b82f6] text-xl md:text-2xl font-semibold bg-gradient-to-r from-blue-500 via-green-500 to-purple-800 bg-clip-text mt-2 mb-4">
+        <p  className="text-[#3b82f6] text-xl md:text-2xl font-semibold bg-gradient-to-r from-blue-500 via-green-500 to-purple-800 bg-clip-text mt-2 mb-4">
           Connect Me Now
         </p>
 
@@ -85,7 +85,7 @@ const Home = () => {
           <a href="mailto:marufkhan2002@gmail.com">
             <AiOutlineMail className="text-4xl rounded bg-blue-500" />
           </a>
-          <a href="mailto:marufkhan2002@gmail.com">
+          <a href="https://www.instagram.com/marufique/">
             <AiOutlineInstagram className="text-4xl rounded bg-blue-500" />
           </a>
         </div>
