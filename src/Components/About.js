@@ -12,7 +12,6 @@ const About = () => {
             About
           </p>
         </div>
-
         <p className="text-xl text-purple-500">
           Hello! I'm Maruf Khan, a recent graduate in Computer Applications.
           During my academic journey, I honed my skills in essential programming

@@ -2,12 +2,12 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 import man from "../assets/dev.svg";
 import "./Home.css";
-import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
   AiOutlineMail,
+  AiOutlineInstagram
 } from "react-icons/ai";
 
 const contentVariants = {
@@ -84,6 +84,9 @@ const Home = () => {
           </a>
           <a href="mailto:marufkhan2002@gmail.com">
             <AiOutlineMail className="text-4xl rounded bg-blue-500" />
+          </a>
+          <a href="mailto:marufkhan2002@gmail.com">
+            <AiOutlineInstagram className="text-4xl rounded bg-blue-500" />
           </a>
         </div>
       </motion.div>

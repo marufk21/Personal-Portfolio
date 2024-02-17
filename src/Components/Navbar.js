@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     {
       id: 5,
-      link: "contact",
+      link: "contact me",
     },
   ];
 
@@ -54,26 +54,13 @@ const Navbar = () => {
     <nav className="flex justify-between items-center z-10 w-full h-20 px-4 bg-gradient-to-r from-blue-900 to-black ">
       <div>
         <h1 className="text-4xl font-bold ml-2 bg-gradient-to-r from-blue-500 via-green-500 to-purple-600 text-transparent bg-clip-text">
-          Maruf Khan
+        &lt; Maruf /&gt;
         </h1>
       </div>
 
       <ul className={`hidden md:flex ${navOpen ? "" : "hidden"}`}>
         {renderNavLinks()}
       </ul>
-
-      <div
-        onClick={toggleNav}
-        className="cursor-pointer pr-4 z-10 text-green-800 md:hidden"
-      >
-        {navOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
-      </div>
-
-      {navOpen && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-700 to-black text-green-600">
-          {renderNavLinks()}
-        </ul>
-      )}
     </nav>
   );
 };
